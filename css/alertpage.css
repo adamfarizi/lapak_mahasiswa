@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gladiora'; 
+    src: url('../src/gladiora-regular.ttf');
+}
+.container{
+    position: absolute;
+    top: 20%;
+    width: 98%;
+    overflow: hidden;
+    font-family: 'Gladiora';
+    font-size: 20px;
+    color:#faf9ed;
+}
+.button {
+    background-color: #013674;
+    font-family: 'Gladiora';
+    border: none;
+    color: #faf9ed;
+    font-size: medium;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 1em;
+    cursor: pointer;
+}
+div button:hover{
+    background-color:#012753;
+}

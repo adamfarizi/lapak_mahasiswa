@@ -1,0 +1,56 @@
+body {
+    height: 850px;
+}
+@font-face {
+    font-family: 'Gladiora'; 
+    src: url('../src/gladiora-regular.ttf');
+}
+.input {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;  
+    border-radius: 1em;
+    background-color: #faf9ed;
+    box-shadow: #faf9ed;
+
+    color:#065776;
+    font-family: 'Gladiora';
+}
+.button {
+    background-color:#039441;
+    font-family: 'Gladiora';
+    border: none;
+    color: #faf9ed;
+    font-size: medium;
+    width: 95%;
+    padding: 10px 0;
+    border-radius: 1em;
+}
+form .button:hover{
+    background-color:#008037;
+}
+.button1 {
+    background-color:#d32f23;
+    font-family: 'Gladiora';
+    border: none;
+    color: #faf9ed;
+    font-size: medium;
+    width: 95%;
+    padding: 10px 0;
+    border-radius: 1em;
+}
+form .button1:hover{
+    background-color:#9D1E15;
+}
+.bg {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    object-fit: cover;
+    object-position: 0 100%;
+    height: 900px;
+    width: 100%;
+}

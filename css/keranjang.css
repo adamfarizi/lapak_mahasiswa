@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: 'Gladiora'; 
+    src: url('../src/gladiora-regular.ttf');
+}
+.button3 {
+    background-color:rgb(0, 172, 57) ;
+    font-family: 'Gladiora';
+    border: none;
+    color: white;
+    font-size: medium;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 1em;
+    margin-top: 5px;
+}
+.button3:hover{
+    background-color:rgb(3, 139, 48) ;
+
+}
+.button4{
+    background-color: #0057BD ;
+    font-family: 'Gladiora';
+    border: none;
+    color: white;
+    font-size: medium;
+    width: 70%;
+    padding: 5px 0;
+    border-radius: 1em;
+    margin-top: 5px;
+}
+.button4:hover{
+    background-color: #044999 ;
+
+}
+.button5{
+    background-color: rgb(223, 32, 32) ;
+    font-family: 'Gladiora';
+    border: none;
+    color: white;
+    font-size: medium;
+    width: 70%;
+    padding: 5px 0;
+    border-radius: 1em;
+    margin-top: 5px; 
+}
+.button5:hover{
+    background-color: rgb(192, 27, 27) ;
+
+}

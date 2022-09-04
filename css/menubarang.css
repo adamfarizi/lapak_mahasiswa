@@ -1,0 +1,230 @@
+body{
+    height: auto;
+    background-color: gainsboro;
+}
+@font-face {
+    font-family: 'Gladiora'; 
+    src: url('../src/gladiora-regular.ttf');
+}
+.img1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    object-fit: cover;
+    object-position: 0 0;
+    height: 2500px;
+    width: 100%;
+}
+.icon {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    width:200px;
+    cursor: pointer;
+}
+
+/* menu bar atas */
+.container {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    object-fit: cover;
+    height: 110px;
+    width: 100%;
+    background-color: #0057BD;
+    overflow: hidden;
+    font-family: 'Gladiora';
+}
+.container a {
+    float: right;
+    text-align: center;
+    padding: 15px 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #faf9ed;
+    cursor: pointer;
+}
+.container a:hover {
+    color: #ff8210;
+    font-weight: bold;
+}
+.container form {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.container form button{
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #faf9ed;
+    background-color: #ff8210;
+    border-color: transparent;
+    border-radius: 0.5em;
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropdwn{
+    position: fixed;
+    top: 35px;
+    left: 83%;
+    display: inline-block;
+
+    font-family: 'Gladiora';
+}
+.dropbtn{
+    height: 40px;
+    width: 150px;
+    padding: 8px 10px;
+    text-align: center;
+
+    background-color: transparent;
+    border:1.5px solid white;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Gladiora';
+}
+
+.img{
+    position: relative;
+    top: 15px;
+
+    border-radius: 50%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    min-width: 150px;
+    z-index: 1;
+
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    
+    color: black;
+}
+.dropdown-content a:hover {
+    background-color: rgba(235, 235, 235, 0.822);
+    text-decoration: none;
+}
+.dropdwn:hover .dropdown-content{
+    display: block;
+}
+.dropdwn:hover .dropbtn{
+    background-color: #0057BD;
+}
+  
+
+
+
+/* tampilan produk */
+.produk{
+    background-color: transparent;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    left: 5%;
+    width: 90%;
+    overflow: hidden;
+
+    font-family: 'Gladiora';
+}
+
+.tampilanproduk{
+    margin: 1%;
+    width: 100%;
+}
+.list-produk{
+    background-color: white;
+    padding: 1%;
+    float: left;
+    height: 300px;
+    width: 20%;
+    margin: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+
+    border: 0.5px solid #a6a6a6;
+    border-radius: 0.25em;
+}
+ 
+.list-produk:hover{
+    transition-duration: 700ms;
+    box-shadow: 0px 5px #ff8210;
+    border: 1px solid #ff8210;
+}
+ 
+.list-produk img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5{
+    color: #0057BD;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tombol{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: center;
+    width: 45%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover{
+    background-color: #ff8210;
+    transition-duration: 700ms;
+}
+ 
+.tombol-beli{
+    background-color: #0057BD;
+}
+
+.bottom {
+    position: absolute;
+    top: auto;
+    height: 200px;
+    left: 0%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Gladiora';   
+    background-color: #0057BD;
+    object-fit: cover;
+}
+.footer{
+    font-size: 15px; 
+    color: rgba(255, 255, 255, 0.466);
+}
+.botom1 a{
+    overflow: hidden;
+    padding: 15px 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #faf9ed;
+    cursor: pointer;
+}
+.botom1 a:hover {
+    color: #ff8210;
+    font-weight: bold;
+}

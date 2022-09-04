@@ -1,0 +1,74 @@
+body{
+    background-color: #0057BD;
+    font-family: 'Gladiora';
+    height: 1300px;
+}
+@font-face {
+    font-family: 'Gladiora'; 
+    src: url('../src/gladiora-regular.ttf');
+}
+.input{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 45%;
+    height: 150%;
+    background-color: white;
+    color: #0057BD;
+    padding: 5% 5%;
+
+    border: 0.5px solid #a6a6a6;
+    border-radius: 0.25em;
+}
+
+/* tampilan form */
+.tampilanform{
+    width: calc(100% - 20px); 
+    color: #0057BD; 
+    background-color: transparent; 
+    border: 1px solid #0057BD; 
+    margin-bottom: 15px; 
+    font-size: medium; 
+    border-radius: 5px; 
+    height: 20px;
+    padding: 10px 16px;
+    font-family: Arial;
+}
+.tampilanformpanjang{
+    padding: 10px 16px;
+    width: calc(100% - 20px);
+    color: #065776; 
+    background-color: transparent; 
+    border: 1px solid #065776; 
+    margin-bottom: 15px; 
+    font-size: medium; 
+    border-radius: 5px;
+    font-family: Arial;
+
+}
+.button {
+    background-color:#039441;
+    font-family: 'Gladiora';
+    border: none;
+    color: #faf9ed;
+    font-size: medium;
+    width:102%;
+    padding: 10px 0;
+    border-radius: 1em;
+}
+form .button:hover{
+    background-color:#008037;
+}
+.button1 {
+    background-color:#d32f23;
+    font-family: 'Gladiora';
+    border: none;
+    color: #faf9ed;
+    font-size: medium;
+    width:102%;
+    padding: 10px 0;
+    border-radius: 1em;
+}
+form .button1:hover{
+    background-color:#9D1E15;
+}
