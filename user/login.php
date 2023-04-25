@@ -68,14 +68,7 @@
             </footer>
         </div>
         </center>
-            setcookie('pass', $data_akun['PASSWORD_PENGGUNA'], time() + 60);
-                }
-                header('Location:../home.php');
-            }else{
-            echo"<script>
-                    alert('password Anda salah');
-                </script>";
-            }<?php
+<?php
     if (isset($_POST["login"])) {
 
     $USERNAME_PENGGUNA = $_POST["USERNAME_PENGGUNA"];
@@ -94,7 +87,14 @@
                 if (isset($_POST["remember"])) {
                     setcookie('EMAIL_PENGGUNA', $data_akun['EMAIL_PENGGUNA'], time() + 60);
                     setcookie('nama', $data_akun['nama'], time() + 60);
-                 
+		    setcookie('pass', $data_akun['PASSWORD_PENGGUNA'], time() + 60);
+			}
+			header('Location:../home.php');
+		    }else{
+		    echo"<script>
+			    alert('password Anda salah');
+			</script>";
+		    }
         }
         $error= true;
     }
